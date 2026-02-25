@@ -1,0 +1,38 @@
+
+.Markit-uz{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    
+
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .box {
+        max-width: 500px;
+        border: 1px solid black;
+        border-radius:11px ;
+    }
+    .box img {
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 90px;
+    }
+    .box .Markit-uz{
+        color: #777;
+        padding: 10px;
+    }
+    .box .Markit-uz h1 {
+        text-align: center;
+    }
+    .box .Markit-uz p {
+        text-align: justify;
+    }
+    .box .Markit-uz .price{
+        font-size: 24px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+    }
